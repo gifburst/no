@@ -94,7 +94,7 @@ cls
 color f
 title C:\WINDOWS\system32\cmd.exe\Grid.DLL\Desktop
 mode 1000
-cmdmenusel "a" "Storage" "=================================" "File Explorer" "================================="  "Remote Desktop viewer" "=================================" "Internet" "=================================" "Game" "=================================" "Info" "=================================" "Help" "=================================" "Shutdown"
+cmdmenusel "a" "Storage" "=================================" "SqUIrrel Manager" "================================="  "calculator" "=================================" "Notes" "=================================" "Game" "=================================" "Info" "=================================" "Help" "=================================" "Shutdown"
 if %ERRORLEVEL%== 1 goto storage
 if %ERRORLEVEL%== 2 goto gate1
 if %ERRORLEVEL%== 3 goto explorer
